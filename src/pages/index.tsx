@@ -18,6 +18,12 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <ToggleSwitch></ToggleSwitch>
+          <h2>Speckleのデモ⏬⏬⏬⏬⏬</h2>
+          <iframe
+            src="https://speckle.xyz/embed?stream=c11aca7643&commit=03722637ca&c=%5B32.23696%2C-25.44042%2C14.19548%2C-0.81262%2C-0.49831%2C9.18918%2C0%2C1%5D"
+            width="600"
+            height="400"
+          ></iframe>
         </div>
       </main>
     </>
